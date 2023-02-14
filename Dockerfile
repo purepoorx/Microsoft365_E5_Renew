@@ -8,6 +8,8 @@ RUN apt update \
     && unzip Microsoft365_E5_Renew_X.zip -d /renewx \
     && rm -rf Microsoft365_E5_Renew_X.zip
 
+RUN dotnet dev-certs https --clean
+RUN dotnet dev-certs https
 
 EXPOSE 1066
 
