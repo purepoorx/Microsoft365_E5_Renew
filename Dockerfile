@@ -15,4 +15,6 @@ EXPOSE 1066
 
 WORKDIR /renewx
 
-ENTRYPOINT ["dotnet", "Microsoft365_E5_Renew_X.dll"]
+CMD pwd && ls -al && dotnet Microsoft365_E5_Renew_X.dll
+
+# ENTRYPOINT ["dotnet", "Microsoft365_E5_Renew_X.dll"]
