@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:latest
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster
 
 
 COPY file/Microsoft365_E5_Renew_X.zip Microsoft365_E5_Renew_X.zip
