@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:3.1
+FROM mcr.microsoft.com/dotnet/core/sdk:latest
 
 
 COPY file/Microsoft365_E5_Renew_X.zip Microsoft365_E5_Renew_X.zip
