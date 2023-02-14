@@ -11,8 +11,6 @@ RUN apt update \
 
 FROM mcr.microsoft.com/dotnet/aspnet:3.1
 
-LABEL MAINTAINER="miemiehoho"
-
 ENV LANG=zh_CN.UTF-8
 
 WORKDIR /renewx
